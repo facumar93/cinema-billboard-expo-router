@@ -131,7 +131,7 @@
       "description": "Two strangers meet in the city of lights and discover an unexpected connection.",
       "poster": "https://images.unsplash.com/photo-1663868290007-e8df80a5b909?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMG1vdmllfGVufDF8fHx8MTc2MTcyODE3OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "duration": 112,
-      "rating": 8.0,
+      "rating": 8,
       "reviews": [
         {
           "username": "RomanticSoul",
@@ -173,7 +173,7 @@
       "description": "Explorers venture into uncharted space to establish a new colony.",
       "poster": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFjZSUyMGNvbG9ueXxlbnwxfHx8fDE3NjE3NTc5NzlfMA&ixlib=rb-4.1.0&q=80&w=1080",
       "duration": 145,
-      "rating": 9.0,
+      "rating": 9,
       "reviews": []
     },
     {
@@ -346,14 +346,51 @@
       "duration": 118,
       "rating": 8.2,
       "reviews": []
+    },
+    {
+      "title": "El Amanecer de los Muertos",
+      "poster": "https://es.web.img2.acsta.net/pictures/15/11/11/08/23/358565.jpg",
+      "description": "Un día como cualquiera otro pero los muertos caminan entre los vivos y también los devoran. Un grupo de sobrevivientes deberán convivir si quieren unir fuerzas y permanecer con los vivos.",
+      "duration": 101,
+      "rating": 10,
+      "category": "Horror",
+      "id": "gfeToeubjlA"
+    },
+    {
+      "title": "La Guerra de los Mundos 2005",
+      "poster": "https://image.tmdb.org/t/p/w500/dr0kR4PTJlp1EDjDK6EK57TqF9r.jpg",
+      "description": "No son los rusos, no son los coreanos. Parecen indestructibles, pero la biología hará lo suyo.",
+      "duration": 116,
+      "rating": 10,
+      "category": "Sci-Fi",
+      "id": "tLurVP_az7U"
     }
   ],
   "categories": [
-    { "id": "1", "name": "Action" },
-    { "id": "2", "name": "Sci-Fi" },
-    { "id": "3", "name": "Horror" },
-    { "id": "4", "name": "Comedy" },
-    { "id": "5", "name": "Drama" },
-    { "id": "6", "name": "Romance" }
-  ]
+    {
+      "id": "1",
+      "name": "Action"
+    },
+    {
+      "id": "2",
+      "name": "Sci-Fi"
+    },
+    {
+      "id": "3",
+      "name": "Horror"
+    },
+    {
+      "id": "4",
+      "name": "Comedy"
+    },
+    {
+      "id": "5",
+      "name": "Drama"
+    },
+    {
+      "id": "6",
+      "name": "Romance"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

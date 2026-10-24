@@ -14,9 +14,22 @@ export default function RootLayout() {
       }}
     >
       <Stack.Screen
-        name="index"
+        name="(tabs)"
         options={{
           title: 'Cinema Billboard',
+        }}
+      />
+      <Stack.Screen
+        name="dashboard"
+        options={{
+          title: 'Cartelera',
+        }}
+      />
+      <Stack.Screen
+        name="add-movie"
+        options={{
+          presentation: 'modal',
+          title: 'Agregar Película',
         }}
       />
     </Stack>

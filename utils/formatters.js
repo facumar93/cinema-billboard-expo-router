@@ -21,4 +21,11 @@ export const getRatingStars = (rating) => {
   return '⭐'.repeat(stars);
 };
 
-export const formatDuration = (minutes) => {};
+export const formatDuration = (minutes) => {
+
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
+
+  if (hours === 0) return mins + 'min';
+  return hours + 'h ' + mins + 'min';
+};
